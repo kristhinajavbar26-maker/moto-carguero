@@ -1,0 +1,292 @@
+/* ===============================
+   ESTILO GENERAL
+================================ */
+body {
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(135deg, #ff6600, #ff944d);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* ===============================
+   TARJETA PRINCIPAL (POST REDES)
+================================ */
+.card {
+    background-color: #ffffff;
+    max-width: 420px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 22px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+.oferta {
+    background: linear-gradient(45deg, #ffb347, #ffd194);
+    color: #5a2d00;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 14px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+
+/* ===============================
+   LOGO
+================================ */
+.logo {
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+/* ===============================
+   TITULO
+================================ */
+h1 {
+    color: #ff6600;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* ===============================
+   INFO (HORARIO Y ZONA)
+================================ */
+.info {
+    background-color: #fff3e6;
+    padding: 12px;
+    border-radius: 14px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* ===============================
+   DESCRIPCION
+================================ */
+.descripcion {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* ===============================
+   BOTON WHATSAPP PRINCIPAL
+================================ */
+.btn-whatsapp {
+    display: block;
+    margin: 25px auto;
+    background: linear-gradient(45deg, #00c853, #25D366, #00e676);
+    color: white;
+    padding: 18px;
+    font-size: 20px;
+    border-radius: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 8px 20px rgba(0, 200, 83, 0.6);
+    animation: latido 1.5s infinite;
+}
+
+/* ANIMACION BOTON PRINCIPAL */
+@keyframes latido {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.06);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* ===============================
+   BOTON FLOTANTE WHATSAPP
+================================ */
+.whatsapp-flotante {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: linear-gradient(45deg, #25D366, #00e676);
+    color: white;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 32px;
+    line-height: 65px;
+    text-decoration: none;
+    box-shadow: 0 0 0 rgba(37, 211, 102, 0.7);
+    animation: pulso 1.5s infinite;
+    z-index: 1000;
+}
+
+/* ANIMACION BOTON FLOTANTE */
+@keyframes pulso {
+    0% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 22px rgba(37, 211, 102, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+    }
+}
+
+/* ===============================
+   RESPONSIVE (CELULAR)
+================================ */
+@media (max-width: 600px) {
+
+    body {
+        padding: 15px;
+    }
+
+    .card {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .logo {
+        width: 120px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .info {
+        font-size: 15px;
+    }
+
+    .descripcion {
+        font-size: 15px;
+    }
+
+    .btn-whatsapp {
+        font-size: 18px;
+        padding: 16px;
+    }
+
+    .whatsapp-flotante {
+        width: 60px;
+        height: 60px;
+        font-size: 30px;
+        line-height: 60px;
+        bottom: 15px;
+        right: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
